@@ -13,57 +13,72 @@
 @import url('./subscribe.css');
 @import url('./footer.css');
 :root {
-	--green-color: #bbf330;
-	--dark-green-color: #7eb101;
-	--yellow-main: #ffe550;
-	--black-color: #2c2c2c;
-	--white-color: #fefefe;
-	--shadow-fruit-color: radial-gradient(50% 50% at 50% 50%, #2f583f 0%, rgba(105, 105, 105, 0) 100%);
-	--main-font-family: "Roboto", sans-serif;
-	--hero-title-font-size: 48px;
-	--title-font-weight: 700;
-	--title-line-height: 1.2;
-	--secondary-title-font-size: 42px;
-	--third-title-font-size: 18px;
-	--secondary-line-height: 1.4;
-	--main-text-font-size: 16px;
-	--secondary-text-size: 14px;
-	--text-font-weght: 500;
-	--buttom-font-size: 13px;
-	--buttom-font-wieght: 500;
-	--text-line-height: 1.5;
-	--main-text-font-weight: 400;
-	--transition-duration: 250ms;
-	--transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	--modal-title-font-size:24px;
-	--form-text-size:12px;
-	--form-color-text:#505050;
-	--modal-text-color:#C4C4C4;
-	--modal-title-font-size:24px;
-	
-
+  --green-color: #bbf330;
+  --dark-green-color: #7eb101;
+  --yellow-main: #ffe550;
+  --black-color: #2c2c2c;
+  --white-color: #fefefe;
+  --shadow-fruit-color: radial-gradient(
+    50% 50% at 50% 50%,
+    #2f583f 0%,
+    rgba(105, 105, 105, 0) 100%
+  );
+  --main-font-family: 'Roboto', sans-serif;
+  --hero-title-font-size: 48px;
+  --title-font-weight: 700;
+  --title-line-height: 1.2;
+  --secondary-title-font-size: 42px;
+  --third-title-font-size: 18px;
+  --secondary-line-height: 1.4;
+  --main-text-font-size: 16px;
+  --secondary-text-size: 14px;
+  --text-font-weght: 500;
+  --buttom-font-size: 13px;
+  --buttom-font-wieght: 500;
+  --text-line-height: 1.5;
+  --main-text-font-weight: 400;
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --modal-title-font-size: 24px;
+  --form-text-size: 12px;
+  --form-color-text: #505050;
+  --modal-text-color: #c4c4c4;
+  --modal-title-font-size: 24px;
 }
 body {
-	font-family: var(--main-font-family);
-	color: var(--black-color);
-	background-color: var(--white-color);
-	font-weight: var(--main-text-font-weight);
-	font-size: var(--main-text-font-size);
-	line-height: var(--text-line-height);
+  font-family: var(--main-font-family);
+  color: var(--black-color);
+  background-color: var(--white-color);
+  font-weight: var(--main-text-font-weight);
+  font-size: var(--main-text-font-size);
+  line-height: var(--text-line-height);
 }
 .container {
-	width: 1280px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-left: auto;
-	margin-right: auto;
+  width: 768px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 .button {
-	padding: 6px 18px;
-	font-weight: var(--buttom-font-wieght);
-	font-size: var(--buttom-font-size);
-	border-radius: 30px;
-	min-width: 103px;
-	height: 42px;
-	padding: 6px 18px;
+  padding: 6px 18px;
+  font-weight: var(--buttom-font-wieght);
+  font-size: var(--buttom-font-size);
+  border-radius: 30px;
+  min-width: 103px;
+  height: 42px;
+  padding: 6px 18px;
 }
