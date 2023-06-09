@@ -53,11 +53,12 @@ body {
   font-size: var(--main-text-font-size);
   line-height: var(--text-line-height);
 }
-.container {
-  width: 320px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
+@media screen and (max-width: 767px) {
+  .container {
+    width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
