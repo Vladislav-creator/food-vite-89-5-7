@@ -1,31 +1,71 @@
 <header class="top">
-	<div class="container">
-	  <a href="./index.html" class="logo-link" aria-label="Foodsta logo">
-		<svg class="logo-icon" width="66" height="52">
-		  <use href="./img/icons.svg#icon-logo"></use>
-		</svg>
-	  </a>
-	  <nav class="top-navigation">
-		<ul class="navigation-list general-list list">
-		  <li class="navigation-item item">
-			<a href="" class="navigation-link link">Home</a>
-		  </li>
-		  <li class="navigation-item item">
-			<a href="" class="navigation-link link">About</a>
-		  </li>
-		  <li class="navigation-item item">
-			<a href="" class="navigation-link link">Service</a>
-		  </li>
-		  <li class="navigation-item item">
-			<a href="" class="navigation-link link">Menu</a>
-		  </li>
-		  <li class="navigation-item item">
-			<a href="" class="navigation-link link">Contact</a>
-		  </li>
-		</ul>
-	  </nav>
-	  <button type="button" class="green-button button" data-modal-open>
-		Order Now
-	  </button>
-	</div>
-  </header>
+  <div class="container">
+    <a href="./index.html" class="logo-link link" aria-label="Foodsta logo">
+      <svg class="logo-icon" width="66" height="52">
+        <use href="./img/icons.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <nav class="top-navigation">
+      <ul class="navigation-list list">
+        <li class="navigation-item item">
+          <a href="" class="navigation-link link">Home</a>
+        </li>
+        <li class="navigation-item item">
+          <a href="" class="navigation-link link">About</a>
+        </li>
+        <li class="navigation-item item">
+          <a href="" class="navigation-link link">Service</a>
+        </li>
+        <li class="navigation-item item">
+          <a href="" class="navigation-link link">Menu</a>
+        </li>
+        <li class="navigation-item item">
+          <a href="" class="navigation-link link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button
+      type="button"
+      class="mobile-menu-open-btn js-open-menu"
+      aria-expanded="false"
+    >
+      <svg class="mobile-menu-open-icon" width="23" height="16">
+        <use href="./img/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <button
+      type="button"
+      class="green-button button header-button"
+      data-modal-open
+    >
+      Order Now
+    </button>
+	<div class="mobile-menu js-menu-container">
+		<div class="mobile-menu-container">
+		  <button class="mobile-menu-close-btn js-close-menu">
+			<svg class="mobile-menu-close-icon" width="11" height="11">
+			  <use href="../img/icons.svg#icon-close"></use>
+			</svg>
+		  </button>
+		  <ul class="mobile-menu-list list">
+			<li class="mobile-menu-item item">
+			  <a href="" class="mobile-menu-link link">Home</a>
+			</li>
+			<li class="mobile-menu-item item">
+			  <a href="" class="mobile-menu-link link">About</a>
+			</li>
+			<li class="mobile-menu-item item">
+			  <a href="" class="mobile-menu-link link">Service</a>
+			</li>
+			<li class="mobile-menu-item item">
+			  <a href="" class="mobile-menu-link link">Menu</a>
+			</li>
+			<li class="mobile-menu-item item">
+			  <a href="" class="mobile-menu-link link">Contact</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+  </div>
+
+</header>
